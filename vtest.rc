@@ -1,0 +1,55 @@
+#define INCL_WINSYS             /*   System values (and colors)       */
+#define INCL_WINSTDDLGS         /*   OS/2 Standard Dialog definitions */
+#define INCL_NLS                /*   DBCS window manager definition   */
+#include <Os2.H>
+#include "Vtest.Ids"
+ 
+HELPTABLE ID_VTEST
+BEGIN
+ HELPITEM ID_VTEST            ,ID_VTEST            ,ID_VTEST
+ HELPITEM ID_MAINWINDOW       ,ID_VTEST            ,ID_VTEST
+END
+ 
+HELPSUBTABLE ID_VTEST
+BEGIN
+ HELPSUBITEM  ID_VTEST                , ID_VTEST
+END
+ 
+STRINGTABLE PRELOAD MOVEABLE
+BEGIN
+ 0                       , "-1:00000 (R) GPF VERSION 2.1"
+END
+ 
+ 
+WINDOWTEMPLATE ID_MAINWINDOW PRELOAD
+BEGIN
+  FRAME    "View Test",
+           ID_MAINWINDOW,94,70,320,160,
+           WS_VISIBLE | WS_SYNCPAINT | WS_CLIPSIBLINGS | WS_SAVEBITS | FS_SIZEBORDER ,
+           FCF_SYSMENU | FCF_TITLEBAR | FCF_MINMAX | FCF_NOBYTEALIGN 
+   BEGIN
+    WINDOW   "",FID_CLIENT,0,0,0,0,"MainWindow",WS_VISIBLE
+             PRESPARAMS PP_BACKGROUNDCOLORINDEX,SYSCLR_APPWORKSPACE
+     BEGIN
+      CONTROL "Type anything here...",
+               ID_STATICTEXT,17,132,92,10,WC_STATIC,
+               WS_VISIBLE | SS_TEXT | DT_LEFT | DT_VCENTER 
+      CONTROL "",
+               ID_MLENTRYFIELD,5,32,308,98,WC_MLE,
+               WS_VISIBLE | WS_TABSTOP | WS_GROUP | MLS_WORDWRAP | MLS_BORDER | MLS_VSCROLL | MLS_IGNORETAB 
+      CONTROL "~Send",
+               ID_PUSHBUTTONSEND,77,8,40,16,WC_BUTTON,
+               WS_VISIBLE | BS_PUSHBUTTON | BS_DEFAULT 
+               PRESPARAMS PP_BACKGROUNDCOLORINDEX,SYSCLR_BUTTONMIDDLE
+      CONTROL "E~xit",
+               ID_PUSHBUTTONEXIT,189,8,40,16,WC_BUTTON,
+               WS_VISIBLE | BS_PUSHBUTTON 
+               PRESPARAMS PP_BACKGROUNDCOLORINDEX,SYSCLR_BUTTONMIDDLE
+     END
+   END
+END
+ 
+ICON   	2	PRELOAD MOVEABLE  C:\devtools\gpf\bitmap\GPFDUMMY.ICO
+BITMAP 	2	PRELOAD MOVEABLE  C:\devtools\gpf\bitmap\GPFDUMMY.BMP
+ 
+

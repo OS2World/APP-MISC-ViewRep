@@ -1,0 +1,1533 @@
+Stack Allocation = 48000 bytes
+
+ VIEWREP
+
+ Start         Length     Name                   Class
+ 0001:00000000 000014963H CODE32                 CODE 32-bit
+	at offset 00000000 014D9H bytes from C:\DEVELOP\VIEWREP\ViewRep.Obj (ViewRep.c)
+	at offset 000014e0 00A33H bytes from C:\DEVELOP\VIEWREP\ViewFill.Obj (ViewFill.c)
+	at offset 00001f20 003F9H bytes from C:\DEVELOP\VIEWREP\ViewOut.Obj (ViewOut.c)
+	at offset 00002320 0046FH bytes from C:\DEVELOP\VIEWREP\Profile.Obj (Profile.c)
+	at offset 00002790 00172H bytes from C:\DEVELOP\VIEWREP\Queue.Obj (Queue.c)
+	at offset 00002910 00402H bytes from C:\DevTools\PMPrintf\printf.obj (printf.c)
+	at offset 00002d14 0063CH bytes from C:\IbmCpp\lib\cppopa3.obj (F:\EXTRA30\SRC\CPPOPA3.ASM)
+	at offset 00003350 03B3CH bytes from C:\devtools\gpf\lib\GpfP2CIS.lib (GpfP2C.C)
+	at offset 00006e8c 003A8H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\begthrd.c)
+	at offset 00007234 0005CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\sprintf.c)
+	at offset 00007290 000ACH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\atoi.c)
+	at offset 0000733c 000ACH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\atol.c)
+	at offset 000073e8 0002AH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\cfree.c)
+	at offset 00007414 00039H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\cmalloc.c)
+	at offset 00007450 00163H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\dbgwrap.c)
+	at offset 000075b4 00023H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\memcpy.c)
+	at offset 000075d8 00030H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\memset.c)
+	at offset 00007608 00036H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strcat.c)
+	at offset 00007640 00021H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strchr.c)
+	at offset 00007664 0001DH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strcmp.c)
+	at offset 00007684 0002EH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strcpy.c)
+	at offset 000076b4 0005DH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strdup.c)
+	at offset 00007714 00015H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strlen.c)
+	at offset 0000772c 00038H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strncpy.c)
+	at offset 00007764 00035H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\vsprintf.c)
+	at offset 0000779c 00063H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fprintf.c)
+	at offset 00007800 000FBH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ctypetbl.c)
+	at offset 000078fc 000FEH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fclose.c)
+	at offset 000079fc 00101H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fopen.c)
+	at offset 00007b00 0028BH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fputc.c)
+	at offset 00007d8c 00174H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\getenv.c)
+	at offset 00007f00 00796H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\gets.c)
+	at offset 00008698 000ADH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\memicmp.c)
+	at offset 00008748 005A7H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_exdump.c)
+	at offset 00008cf0 00075H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strtok.c)
+	at offset 00008d68 00045H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strupr.c)
+	at offset 00008db0 00078H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\time.c)
+	at offset 00008e28 00191H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\endthrd.c)
+	at offset 00008fbc 0001EH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fastsema.asm)
+	at offset 00008fdc 0000BH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\threadid.c)
+	at offset 00008fe8 0015DH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\tsglobal.c)
+	at offset 00009148 015E5H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\dofmto.c)
+	at offset 0000a730 00010H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fpreset.asm)
+	at offset 0000a740 00047H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\interr.c)
+	at offset 0000a788 000A3H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ltoa.c)
+	at offset 0000a82c 00210H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\prtemsg.c)
+	at offset 0000aa3c 000E2H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rcalloc.c)
+	at offset 0000ab20 0223EH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rdbg.c)
+	at offset 0000cd60 018C4H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rmalloc.c)
+	at offset 0000e624 0003BH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strcspn.asm)
+	at offset 0000e660 0003CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strspn.asm)
+	at offset 0000e69c 000BEH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\dde4strt.c)
+	at offset 0000e75c 00252H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\closstrm.c)
+	at offset 0000e9b0 001FEH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\convert.c)
+	at offset 0000ebb0 00374H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\edcinit.c)
+	at offset 0000ef24 000EBH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fcloseal.c)
+	at offset 0000f010 0032DH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\flushb.c)
+	at offset 0000f340 00555H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fmprs.c)
+	at offset 0000f898 00250H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mktime.c)
+	at offset 0000fae8 0006BH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_excpta.asm)
+	at offset 0000fb54 000F6H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_excrit.c)
+	at offset 0000fc4c 005F6H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\openstrm.c)
+	at offset 00010244 00255H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ureadbs.c)
+	at offset 0001049c 00035H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\uwrite.c)
+	at offset 000104d4 007F5H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_except.c)
+	at offset 00010ccc 000D7H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fastsem.c)
+	at offset 00010da4 000B7H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\freethrd.c)
+	at offset 00010e5c 000D1H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\bufprint.c)
+	at offset 00010f30 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\calls.asm)
+	at offset 00010f3c 00032H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\crt_fd.c)
+	at offset 00010f70 0002AH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\exit.c)
+	at offset 00010f9c 000B3H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fmtcomm.c)
+	at offset 00011050 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fpninit.asm)
+	at offset 00011054 000A3H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\itoa.c)
+	at offset 000110f8 0003FH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\memmove.c)
+	at offset 00011138 003CFH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rcreate.c)
+	at offset 00011508 0036EH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rheapmin.c)
+	at offset 00011878 0011DH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rinit.c)
+	at offset 00011998 00033H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rmsize.c)
+	at offset 000119cc 00958H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rwalk.c)
+	at offset 00012324 0000DH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\sctdt.c)
+	at offset 00012334 001F8H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\setuparg.asm)
+	at offset 0001252c 000E3H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strtoul.c)
+	at offset 00012610 00010H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\terminat.c)
+	at offset 00012620 0006BH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\tmarea.c)
+	at offset 0001268c 0007CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ultoa.c)
+	at offset 00012708 0001BH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\weakfmt.c)
+	at offset 00012724 00005H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wk_rmem.c)
+	at offset 0001272c 00007H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wk_tmem.c)
+	at offset 00012734 00007H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\cppinit.asm)
+	at offset 0001273c 00029H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\abort.c)
+	at offset 00012768 0000EH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\bts.asm)
+	at offset 00012778 00047H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\checkmem.c)
+	at offset 000127c0 00017H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\cweak.c)
+	at offset 000127d8 00007H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\edcmxdef.c)
+	at offset 000127e0 001CDH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\edcterm.c)
+	at offset 000129b0 001A1H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\flush.c)
+	at offset 00012b54 000C5H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\freefcb.c)
+	at offset 00012c1c 00227H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fullpath.c)
+	at offset 00012e44 00015H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\incdec.asm)
+	at offset 00012e5c 00045H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\initbuf.c)
+	at offset 00012ea4 001B8H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\initfcb.c)
+	at offset 0001305c 00027H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\localcnv.c)
+	at offset 00013084 00007H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\matherr.c)
+	at offset 0001308c 000BAH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\noddprs.c)
+	at offset 00013148 00080H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_dumpwk.c)
+	at offset 000131c8 000C6H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\setupenv.c)
+	at offset 00013290 000B5H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strnicmp.c)
+	at offset 00013348 00033H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wctomb.c)
+	at offset 0001337c 00007H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\weakcput.c)
+	at offset 00013384 0004DH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wmemfile.c)
+	at offset 000133d4 00006H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\w_raise.c)
+	at offset 000133dc 00083H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\xread.c)
+	at offset 00013460 005DAH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\_cnvrt.c)
+	at offset 00013a3c 0003DH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ccalloc.c)
+	at offset 00013a7c 0018DH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\toint.c)
+	at offset 00013c0c 00005H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wctdt.c)
+	at offset 00013c14 00003H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wflush.c)
+	at offset 00013c18 00009H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wk_exit.c)
+	at offset 00013c24 00001H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wk_msmsg.c)
+	at offset 00013c28 00003H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wk_walk.c)
+	at offset 00013c2c 00007H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fclweak.c)
+	at offset 00013c34 00151H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fflush.c)
+	at offset 00013d88 0023BH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fillb.c)
+	at offset 00013fc4 0000BH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\localcns.c)
+	at offset 00013fd0 0002DH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mblen.c)
+	at offset 00014000 00040H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mbrlen.c)
+	at offset 00014040 00056H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_excpio.c)
+	at offset 00014098 000C8H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\raise.c)
+	at offset 00014160 00117H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wctombd.c)
+	at offset 00014278 000C2H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mblend.c)
+	at offset 0001433c 00100H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mbrlend.c)
+	at offset 0001443c 00527H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\nlssetup.c)
+
+ 0001:00014964 000000030H _MSGSEG32              CODE 32-bit
+	at offset 00000000 00030H bytes from C:\ibmcpp\lib\os2386.lib (.\msgseg32.asm)
+
+ 0002:00000000 000000194H CONST32_RO             CONST 32-bit
+	at offset 00000000 00006H bytes from C:\DEVELOP\VIEWREP\ViewFill.Obj (ViewFill.c)
+	at offset 00000008 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_exdump.c)
+	at offset 0000000c 00049H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\dofmto.c)
+	at offset 00000058 00025H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ltoa.c)
+	at offset 00000080 00088H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\prtemsg.c)
+	at offset 00000108 00014H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\edcinit.c)
+	at offset 0000011c 00027H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fmprs.c)
+	at offset 00000144 00025H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\itoa.c)
+	at offset 0000016c 00025H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ultoa.c)
+
+ 0003:00000000 000005EC0H DATA32                 DATA 32-bit
+	at offset 00000000 00134H bytes from C:\DEVELOP\VIEWREP\ViewRep.Obj (ViewRep.c)
+	at offset 00000134 0012CH bytes from C:\DEVELOP\VIEWREP\ViewFill.Obj (ViewFill.c)
+	at offset 00000260 0003CH bytes from C:\DEVELOP\VIEWREP\ViewOut.Obj (ViewOut.c)
+	at offset 0000029c 000F0H bytes from C:\DEVELOP\VIEWREP\Profile.Obj (Profile.c)
+	at offset 0000038c 00020H bytes from C:\DEVELOP\VIEWREP\Queue.Obj (Queue.c)
+	at offset 000003ac 00020H bytes from C:\DevTools\PMPrintf\printf.obj (printf.c)
+	at offset 000003cc 00004H bytes from C:\IbmCpp\lib\cppopa3.obj (F:\EXTRA30\SRC\CPPOPA3.ASM)
+	at offset 000003d0 040F0H bytes from C:\devtools\gpf\lib\GpfP2CIS.lib (GpfP2C.C)
+	at offset 000044c0 0009CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\begthrd.c)
+	at offset 0000455c 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\exeentry.asm)
+	at offset 00004560 00108H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ctypetbl.c)
+	at offset 00004668 00008H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fclose.c)
+	at offset 00004670 00008H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fopen.c)
+	at offset 00004678 00018H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fputc.c)
+	at offset 00004690 00010H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\getenv.c)
+	at offset 000046a0 00030H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\gets.c)
+	at offset 000046d0 000C0H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_exdump.c)
+	at offset 00004790 00024H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\endthrd.c)
+	at offset 000047b4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\tsglobal.c)
+	at offset 000047c0 00008H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\dofmto.c)
+	at offset 000047c8 00002H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fpreset.asm)
+	at offset 000047cc 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\prtemsg.c)
+	at offset 000047d0 001D4H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rdbg.c)
+	at offset 000049a4 00028H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rmalloc.c)
+	at offset 000049cc 00050H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\closstrm.c)
+	at offset 00004a1c 00274H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\edcinit.c)
+	at offset 00004c90 00010H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fcloseal.c)
+	at offset 00004ca0 00054H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\openstrm.c)
+	at offset 00004cf4 000ACH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_except.c)
+	at offset 00004da0 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\crt_fd.c)
+	at offset 00004da4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rcreate.c)
+	at offset 00004db0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rheapmin.c)
+	at offset 00004dbc 00010H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\setuparg.asm)
+	at offset 00004dcc 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fullpath.c)
+	at offset 00004dd0 00074H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lccmap.c)
+	at offset 00004e44 00058H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lctod.c)
+	at offset 00004e9c 00034H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\_cnvrt.c)
+	at offset 00004ed0 00010H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fflush.c)
+	at offset 00004ee0 002D4H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lclocale.c)
+	at offset 000051b4 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\localcns.c)
+	at offset 000051b8 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wctombd.c)
+	at offset 000051bc 00268H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lccoll.c)
+	at offset 00005424 00538H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcctype.c)
+	at offset 0000595c 0005CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcmon.c)
+	at offset 000059b8 00028H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcnum.c)
+	at offset 000059e0 00048H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcresp.c)
+	at offset 00005a28 00074H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcsyntax.c)
+	at offset 00005a9c 0041CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lctime.c)
+	at offset 00005eb8 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mblend.c)
+	at offset 00005ebc 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mbrlend.c)
+
+ 0003:00005EC0 000000000H CONST32                DATA 32-bit
+
+ 0003:00005EC0 000000000H BSS32                  DATA 32-bit
+
+ 0003:00005EC0 000000000H CTOR_DTOR1             DATA 32-bit
+
+ 0003:00005EC0 000000000H CTOR_DTOR2             DATA 32-bit
+
+ 0003:00005EC0 000000000H CTOR_DTOR3             DATA 32-bit
+
+ 0003:00005EC0 00000000CH EDC1                   EDC_CLASS 32-bit
+	at offset 00000000 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_excpta.asm)
+
+ 0003:00005ECC 00000054CH EDC2                   EDC_CLASS 32-bit
+	at offset 00000000 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\begthrd.c)
+	at offset 0000000c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\sprintf.c)
+	at offset 00000018 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\atoi.c)
+	at offset 00000024 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\atol.c)
+	at offset 00000030 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\cfree.c)
+	at offset 0000003c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\cmalloc.c)
+	at offset 00000048 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\dbgwrap.c)
+	at offset 00000054 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\memcpy.c)
+	at offset 00000060 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\memset.c)
+	at offset 0000006c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strcat.c)
+	at offset 00000078 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strchr.c)
+	at offset 00000084 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strcmp.c)
+	at offset 00000090 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strcpy.c)
+	at offset 0000009c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strdup.c)
+	at offset 000000a8 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strlen.c)
+	at offset 000000b4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strncpy.c)
+	at offset 000000c0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\vsprintf.c)
+	at offset 000000cc 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fprintf.c)
+	at offset 000000d8 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ctypetbl.c)
+	at offset 000000e4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fclose.c)
+	at offset 000000f0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fopen.c)
+	at offset 000000fc 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fputc.c)
+	at offset 00000108 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\getenv.c)
+	at offset 00000114 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\gets.c)
+	at offset 00000120 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\memicmp.c)
+	at offset 0000012c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_exdump.c)
+	at offset 00000138 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strtok.c)
+	at offset 00000144 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strupr.c)
+	at offset 00000150 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\time.c)
+	at offset 0000015c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\endthrd.c)
+	at offset 00000168 00018H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fastsema.asm)
+	at offset 00000180 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\threadid.c)
+	at offset 0000018c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\tsglobal.c)
+	at offset 00000198 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\dofmto.c)
+	at offset 000001a4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fpreset.asm)
+	at offset 000001b0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\interr.c)
+	at offset 000001bc 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ltoa.c)
+	at offset 000001c8 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\prtemsg.c)
+	at offset 000001d4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rdbg.c)
+	at offset 000001e0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rmalloc.c)
+	at offset 000001ec 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strcspn.asm)
+	at offset 000001f8 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strspn.asm)
+	at offset 00000204 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\closstrm.c)
+	at offset 00000210 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\edcinit.c)
+	at offset 0000021c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fcloseal.c)
+	at offset 00000228 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\flushb.c)
+	at offset 00000234 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fmprs.c)
+	at offset 00000240 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mktime.c)
+	at offset 0000024c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_excrit.c)
+	at offset 00000258 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\openstrm.c)
+	at offset 00000264 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\uwrite.c)
+	at offset 00000270 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_except.c)
+	at offset 0000027c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fastsem.c)
+	at offset 00000288 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\freethrd.c)
+	at offset 00000294 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\bufprint.c)
+	at offset 000002a0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\calls.asm)
+	at offset 000002ac 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\exit.c)
+	at offset 000002b8 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fpninit.asm)
+	at offset 000002c4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\itoa.c)
+	at offset 000002d0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\memmove.c)
+	at offset 000002dc 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rheapmin.c)
+	at offset 000002e8 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rmsize.c)
+	at offset 000002f4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\setuparg.asm)
+	at offset 00000300 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strtoul.c)
+	at offset 0000030c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\terminat.c)
+	at offset 00000318 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ultoa.c)
+	at offset 00000324 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\weakfmt.c)
+	at offset 00000330 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\cppinit.asm)
+	at offset 0000033c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\abort.c)
+	at offset 00000348 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\bts.asm)
+	at offset 00000354 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\checkmem.c)
+	at offset 00000360 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\edcmxdef.c)
+	at offset 0000036c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\edcterm.c)
+	at offset 00000378 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\flush.c)
+	at offset 00000384 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\freefcb.c)
+	at offset 00000390 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fullpath.c)
+	at offset 0000039c 00018H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\incdec.asm)
+	at offset 000003b4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\initbuf.c)
+	at offset 000003c0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\initfcb.c)
+	at offset 000003cc 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lccmap.c)
+	at offset 000003d8 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lctod.c)
+	at offset 000003e4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\localcnv.c)
+	at offset 000003f0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\matherr.c)
+	at offset 000003fc 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\noddprs.c)
+	at offset 00000408 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_dumpwk.c)
+	at offset 00000414 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\setupenv.c)
+	at offset 00000420 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\strnicmp.c)
+	at offset 0000042c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wctomb.c)
+	at offset 00000438 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\weakcput.c)
+	at offset 00000444 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\_cnvrt.c)
+	at offset 00000450 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ccalloc.c)
+	at offset 0000045c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\toint.c)
+	at offset 00000468 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wk_exit.c)
+	at offset 00000474 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fclweak.c)
+	at offset 00000480 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fflush.c)
+	at offset 0000048c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fillb.c)
+	at offset 00000498 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lclocale.c)
+	at offset 000004a4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\localcns.c)
+	at offset 000004b0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mblen.c)
+	at offset 000004bc 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mbrlen.c)
+	at offset 000004c8 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\raise.c)
+	at offset 000004d4 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\wctombd.c)
+	at offset 000004e0 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lccoll.c)
+	at offset 000004ec 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcctype.c)
+	at offset 000004f8 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcmon.c)
+	at offset 00000504 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcnum.c)
+	at offset 00000510 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcresp.c)
+	at offset 0000051c 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcsyntax.c)
+	at offset 00000528 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lctime.c)
+	at offset 00000534 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mblend.c)
+	at offset 00000540 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\mbrlend.c)
+
+ 0003:00006418 000000004H EDC3                   EDC_CLASS 32-bit
+	at offset 00000000 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_excpta.asm)
+
+ 0003:0000641C 000001070H BSS32                  BSS 32-bit
+	at offset 00000000 00310H bytes from C:\DEVELOP\VIEWREP\ViewFill.Obj (ViewFill.c)
+	at offset 00000310 0010CH bytes from C:\DEVELOP\VIEWREP\ViewOut.Obj (ViewOut.c)
+	at offset 0000041c 00108H bytes from C:\DEVELOP\VIEWREP\Profile.Obj (Profile.c)
+	at offset 00000524 00008H bytes from C:\DEVELOP\VIEWREP\Queue.Obj (Queue.c)
+	at offset 0000052c 000E8H bytes from C:\DevTools\PMPrintf\printf.obj (printf.c)
+	at offset 00000614 00024H bytes from C:\devtools\gpf\lib\GpfP2CIS.lib (GpfP2C.C)
+	at offset 00000638 00008H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\ctypetbl.c)
+	at offset 00000640 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\prtemsg.c)
+	at offset 00000644 008D8H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rdbg.c)
+	at offset 00000f1c 00008H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\dde4strt.c)
+	at offset 00000f24 0001CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\edcinit.c)
+	at offset 00000f40 0000CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\n_except.c)
+	at offset 00000f4c 00004H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\rinit.c)
+	at offset 00000f50 00104H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\fullpath.c)
+	at offset 00001054 0001CH bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\lcctype.c)
+
+ 0003:0000748C 000000308H c_common               BSS 32-bit
+
+ 0003:000077A0 00000A000H STACK32                STACK 32-bit
+	at offset 00000000 08000H bytes from C:\ibmcpp\lib\cppom30.lib (d:\swordcsd6\crt\exeentry.asm)
+
+
+ Origin   Group
+ 0000:0   FLAT
+ 0003:0   DGROUP
+
+ Address       Export                  Alias
+
+ 0001:00000E03 fnwpMainWindow          fnwpMainWindow
+
+  Address         Publics by Name
+
+ 0001:00002D15       $$PROFCALL32
+ 0001:00002EF4       $$PROFEYEC32
+ 0001:00003284       $$PROFINIT32
+ 0001:0000334A       $$PROFJUMP32
+ 0001:00002DC5       $$PROFRET32
+ 0001:000030C7       $$PROFSETJMP
+ 0001:00002E05       $$PROFTRIG32
+ 0001:00003006       $$PROFUSER32
+ 0003:000003CC       $$PROSEGPTR32
+ 0001:0001273C       abort
+ 0003:000074A8       Argc
+ 0003:000074AC       Argv
+ 0001:00000D20       AsynShowMainWindow
+ 0001:00007290       atoi
+ 0001:0000733C       atol
+ 0001:00013A3C       calloc
+ 0001:00000DB0       CreateMainWindow
+ 0001:00002858       dequeue
+ 0001:00000D70       DismissMainWindow
+ 0001:00014976       Dos32GetMessage
+ 0001:00014976       DOS32GETMESSAGE
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DosAllocSharedMem    (DOSCALLS.300)
+ 0000:00000000  Imp  DosClose             (DOSCALLS.257)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosCreateThread      (DOSCALLS.311)
+ 0000:00000000  Imp  DosEnterCritSec      (DOSCALLS.232)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosExitCritSec       (DOSCALLS.233)
+ 0000:00000000  Imp  DosExitList          (DOSCALLS.296)
+ 0000:00000000  Imp  DosForceDelete       (DOSCALLS.110)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  DosFreeResource      (DOSCALLS.353)
+ 0000:00000000  Imp  DosGetDateTime       (DOSCALLS.230)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0001:00014976       DosGetMessage
+ 0001:00014976       DOSGETMESSAGE
+ 0000:00000000  Imp  DosGetResource       (DOSCALLS.352)
+ 0000:00000000  Imp  DosGiveSharedMem     (DOSCALLS.303)
+ 0000:00000000  Imp  DosLoadModule        (DOSCALLS.318)
+ 0000:00000000  Imp  DosOpen              (DOSCALLS.273)
+ 0000:00000000  Imp  DosOpenEventSem      (DOSCALLS.325)
+ 0000:00000000  Imp  DosOpenQueue         (QUECALLS.15)
+ 0000:00000000  Imp  DosPostEventSem      (DOSCALLS.328)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  DosQueryPathInfo     (DOSCALLS.223)
+ 0000:00000000  Imp  DosQueryProcAddr     (DOSCALLS.321)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  DosRead              (DOSCALLS.281)
+ 0000:00000000  Imp  DosReleaseMutexSem   (DOSCALLS.335)
+ 0000:00000000  Imp  DosResetEventSem     (DOSCALLS.327)
+ 0000:00000000  Imp  DosSetExceptionHandler (DOSCALLS.354)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  DosSetFileSize       (DOSCALLS.272)
+ 0000:00000000  Imp  DosSetRelMaxFH       (DOSCALLS.382)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  DosSleep             (DOSCALLS.229)
+ 0000:00000000  Imp  DosUnsetExceptionHandler (DOSCALLS.355)
+ 0000:00000000  Imp  DosUnwindException   (DOSCALLS.357)
+ 0000:00000000  Imp  DosWaitEventSem      (DOSCALLS.329)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0000:00000000  Imp  DosWriteQueue        (QUECALLS.14)
+ 0000:00000000  Imp  EMPrfCloseProfile    (ERRORMGR.544)
+ 0000:00000000  Imp  EMPrfOpenProfile     (ERRORMGR.546)
+ 0000:00000000  Imp  EMPrfQueryProfileInt (ERRORMGR.551)
+ 0000:00000000  Imp  EMPrfWriteProfileString (ERRORMGR.560)
+ 0000:00000000  Imp  EMWinCancelShutdown  (ERRORMGR.699)
+ 0000:00000000  Imp  EMWinChangeSwitchEntry (ERRORMGR.700)
+ 0000:00000000  Imp  EMWinCreateMsgQueue  (ERRORMGR.715)
+ 0000:00000000  Imp  EMWinCreateSwitchEntry (ERRORMGR.720)
+ 0000:00000000  Imp  EMWinDestroyMsgQueue (ERRORMGR.743)
+ 0000:00000000  Imp  EMWinInitialize      (ERRORMGR.789)
+ 0000:00000000  Imp  EMWinQueryAnchorBlock (ERRORMGR.834)
+ 0000:00000000  Imp  EMWinQueryWindowPos  (ERRORMGR.883)
+ 0000:00000000  Imp  EMWinQueryWindowProcess (ERRORMGR.884)
+ 0000:00000000  Imp  EMWinSendDlgItemMsg  (ERRORMGR.906)
+ 0000:00000000  Imp  EMWinSetWindowPos    (ERRORMGR.941)
+ 0003:00007770       EndOfAppl
+ 0001:000027B0       enqueue
+ 0001:00010F70       exit
+ 0001:000078FC       fclose
+ 0001:00013C34       fflush
+ 0001:00000E03       fnwpMainWindow
+ 0001:000079FC       fopen
+ 0001:00007B00       fputc
+ 0001:000073E8       free
+ 0001:00007D8C       getenv
+ 0001:00007F00       gets
+ 0001:0000592C       GpfAdjustControlSize
+ 0001:00006E00       GpfAllEmphasis
+ 0001:0000462C       GpfCreateTemplate
+ 0001:000003B1       GpfDefWindowProc
+ 0001:00004588       GpfDestroyTemplate
+ 0001:00004568       GpfDismissWnd
+ 0001:000009B1       GpfDisplayHelp
+ 0001:00003AFC       GpfDisplayMsgInformation
+ 0001:00003438       GpfDrawItem
+ 0001:00005C80       GpfExecAsyncProc
+ 0001:0000624C       GpfGetHwndFrame
+ 0001:00004598       GpfGetVunitHunit
+ 0001:000067F8       GpfInitSlider
+ 0001:00005B18       GpfInitThread
+ 0001:0000335C       GpfMeasureItem
+ 0001:000065EC       GpfMenuGray
+ 0001:000066E4       GpfMenuSwapTick
+ 0001:00006668       GpfMenuTick
+ 0001:00006BA8       GpfNoteBookTurnToPage
+ 0001:00003350       GpfP2CLevel
+ 0001:0000694C       GpfPreInitNoteBookPage
+ 0001:000044D8       GpfProcessWnd
+ 0001:000054AC       GpfQueryDefaultButton
+ 0001:00005BA8       GpfQueryHab
+ 0001:00005C1C       GpfQueryHmq
+ 0001:00005B8C       GpfQueryHmqSql
+ 0001:00003A8C       GpfQueryMsgInformation
+ 0001:00005448       GpfResetDefaultButton
+ 0001:00004404       GpfResetModalMode
+ 0001:000055DC       GpfResetWind
+ 0001:000053D8       GpfRestoreDefaultButton
+ 0001:00000A83       GpfSendMsg
+ 0001:00003A98       GpfSendMsgInformation
+ 0001:0000629C       GpfSetCentreWindow
+ 0001:00006490       GpfSetDialogBoxSysMenu
+ 0001:00005B98       GpfSetHmqSql
+ 0001:0000636C       GpfSetMaxWindow
+ 0001:00004354       GpfSetModalMode
+ 0001:00003A7C       GpfSetMsgInformation
+ 0001:00006A20       GpfSetNoteBookPage
+ 0001:000063B8       GpfSetShellPosition
+ 0001:00006400       GpfSetShellPositionSize
+ 0001:00006448       GpfSetShellSize
+ 0001:00004F88       GpfSetTabulation
+ 0001:00006278       GpfSetTextTitleBar
+ 0001:00006318       GpfSetTopWindow
+ 0001:00003A6C       GpfSetTypeMsgInfo
+ 0001:00006C08       GpfSetValueSetAttribute
+ 0001:00006CE4       GpfSetValueSetBitMap
+ 0001:00006D54       GpfSetValueSetColor
+ 0001:00006C8C       GpfSetValueSetIcon
+ 0001:00006C44       GpfSetValueSetText
+ 0001:00006D9C       GpfSetViewContainer
+ 0001:00005504       GpfSetWind
+ 0001:00006784       GpfStringIsNumeric
+ 0001:00006570       GpfSysMenuGray
+ 0000:00000000  Imp  GpiDeleteBitmap      (PMGPI.371)
+ 0000:00000000  Imp  GpiLine              (PMGPI.398)
+ 0000:00000000  Imp  GpiLoadBitmap        (PMGPI.399)
+ 0000:00000000  Imp  GpiMove              (PMGPI.404)
+ 0000:00000000  Imp  GpiQueryFontMetrics  (PMGPI.453)
+ 0000:00000000  Imp  GpiQueryFonts        (PMGPI.586)
+ 0000:00000000  Imp  GpiSetBackColor      (PMGPI.504)
+ 0000:00000000  Imp  GpiSetBackMix        (PMGPI.505)
+ 0000:00000000  Imp  GpiSetColor          (PMGPI.517)
+ 0000:00000000  Imp  GpiSetLineType       (PMGPI.530)
+ 0003:0000748C       habMainTask
+ 0003:00007490       hmodViewRep
+ 0003:00007494       hmqMainTask
+ 0003:00007754       hSwitch
+ 0003:0000774C       Hunits
+ 0003:00007780       hwndFrameMainWindow
+ 0003:00007764       hwndHelp
+ 0003:000074A4       hwndMainWindow
+ 0001:00002790       init_queue
+ 0001:00013068       localeconv
+ 0003:0000777C       LogoTimer
+ 0001:000030F2       longjmp
+ 0001:00000000       main
+ 0001:00007414       malloc
+ 0001:00013FDC       mblen
+ 0001:0001400C       mbrlen
+ 0001:000075B4       memcpy
+ 0001:00008698       memicmp
+ 0001:000110F8       memmove
+ 0001:000075D8       memset
+ 0001:0000F898       mktime
+ 0001:00001FD6       out_close
+ 0001:00001F20       out_open
+ 0001:00002025       out_page
+ 0001:00002070       out_string
+ 0001:00003006       PERF
+ 0001:00003060       PerfStart
+ 0001:00003095       PerfStop
+ 0000:00000000  Imp  PrfQueryProfileInt   (PMSHAPI.114)
+ 0000:00000000  Imp  PrfQueryProfileString (PMSHAPI.115)
+ 0001:00003007       PROFITCAL
+ 0001:00002470       prof_make_siz_pos
+ 0001:00002570       prof_save_siz_pos
+ 0001:00014098       raise
+ 0003:00007750       sDecimal
+ 0001:000030C4       setjmp
+ 0001:00000CF7       ShowMainWindow
+ 0001:00014964       sig32
+ 0000:00000000  Imp  SplQmClose           (PMSPL.306)
+ 0000:00000000  Imp  SplQmEndDoc          (PMSPL.303)
+ 0000:00000000  Imp  SplQmOpen            (PMSPL.301)
+ 0000:00000000  Imp  SplQmStartDoc        (PMSPL.302)
+ 0000:00000000  Imp  SplQmWrite           (PMSPL.304)
+ 0000:00000000  Imp  SplQueryQueue        (PMSPL.397)
+ 0003:00004BD4       stderr
+ 0003:00004BCC       stdin
+ 0003:00004BD0       stdout
+ 0001:00007608       strcat
+ 0001:00007640       strchr
+ 0001:00007664       strcmp
+ 0001:00007684       strcpy
+ 0001:0000E624       strcspn
+ 0001:000076B4       strdup
+ 0001:00007714       strlen
+ 0001:0000772C       strncpy
+ 0001:00013290       strnicmp
+ 0001:0000E660       strspn
+ 0001:00008CF0       strtok
+ 0001:0001252C       strtoul
+ 0001:00008D68       strupr
+ 0003:000076EC       Swctl
+ 0003:00007790       szTaskList
+ 0001:00008DB0       time
+ 0003:000074A0       ViewRep_Level
+ 0001:00001767       view_fill
+ 0001:00001A33       view_print
+ 0001:000014E0       view_title
+ 0001:00007780       vsprintf
+ 0003:0000774E       Vunits
+ 0001:00013354       wctomb
+ 0000:00000000  Imp  WinAddAtom           (PMWIN.700)
+ 0000:00000000  Imp  WinAddSwitchEntry    (PMSHAPI.120)
+ 0000:00000000  Imp  WinAlarm             (PMWIN.701)
+ 0000:00000000  Imp  WinAssociateHelpInstance (HELPMGR.54)
+ 0000:00000000  Imp  WinBeginEnumWindows  (PMWIN.702)
+ 0000:00000000  Imp  WinBeginPaint        (PMWIN.703)
+ 0000:00000000  Imp  WinCreateHelpInstance (HELPMGR.51)
+ 0000:00000000  Imp  WinCreateMsgQueue    (PMWIN.716)
+ 0000:00000000  Imp  WinCreateWindow      (PMWIN.909)
+ 0000:00000000  Imp  WinDefWindowProc     (PMWIN.911)
+ 0000:00000000  Imp  WinDestroyHelpInstance (HELPMGR.52)
+ 0000:00000000  Imp  WinDestroyMsgQueue   (PMWIN.726)
+ 0000:00000000  Imp  WinDestroyPointer    (PMWIN.727)
+ 0000:00000000  Imp  WinDestroyWindow     (PMWIN.728)
+ 0000:00000000  Imp  WinDispatchMsg       (PMWIN.912)
+ 0000:00000000  Imp  WinDrawBorder        (PMWIN.731)
+ 0000:00000000  Imp  WinDrawText          (PMWIN.913)
+ 0000:00000000  Imp  WinEndEnumWindows    (PMWIN.737)
+ 0000:00000000  Imp  WinEndPaint          (PMWIN.738)
+ 0000:00000000  Imp  WinEnumDlgItem       (PMWIN.740)
+ 0000:00000000  Imp  WinFillRect          (PMWIN.743)
+ 0000:00000000  Imp  WinGetClipPS         (PMWIN.749)
+ 0000:00000000  Imp  WinGetMsg            (PMWIN.915)
+ 0000:00000000  Imp  WinGetNextWindow     (PMWIN.756)
+ 0000:00000000  Imp  WinGetPS             (PMWIN.757)
+ 0000:00000000  Imp  WinGetScreenPS       (PMWIN.759)
+ 0000:00000000  Imp  WinInitialize        (PMWIN.763)
+ 0000:00000000  Imp  WinInvalidateRect    (PMWIN.765)
+ 0000:00000000  Imp  WinLoadAccelTable    (PMWIN.776)
+ 0000:00000000  Imp  WinLoadMenu          (PMWIN.778)
+ 0000:00000000  Imp  WinLoadPointer       (PMWIN.780)
+ 0000:00000000  Imp  WinLoadString        (PMWIN.781)
+ 0000:00000000  Imp  WinMapWindowPoints   (PMWIN.788)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  WinPostMsg           (PMWIN.919)
+ 0000:00000000  Imp  WinPostQueueMsg      (PMWIN.902)
+ 0000:00000000  Imp  WinQueryActiveWindow (PMWIN.799)
+ 0000:00000000  Imp  WinQueryAnchorBlock  (PMWIN.800)
+ 0000:00000000  Imp  WinQueryCapture      (PMWIN.804)
+ 0000:00000000  Imp  WinQueryClassName    (PMWIN.805)
+ 0000:00000000  Imp  WinQueryDesktopWindow (PMWIN.813)
+ 0000:00000000  Imp  WinQueryFocus        (PMWIN.817)
+ 0000:00000000  Imp  WinQueryObjectWindow (PMWIN.820)
+ 0000:00000000  Imp  WinQueryPresParam    (PMWIN.939)
+ 0000:00000000  Imp  WinQueryQueueInfo    (PMWIN.824)
+ 0000:00000000  Imp  WinQuerySysModalWindow (PMWIN.827)
+ 0000:00000000  Imp  WinQuerySysPointer   (PMWIN.828)
+ 0000:00000000  Imp  WinQuerySystemAtomTable (PMWIN.830)
+ 0000:00000000  Imp  WinQuerySysValue     (PMWIN.829)
+ 0000:00000000  Imp  WinQueryTaskSizePos  (PMSHAPI.127)
+ 0000:00000000  Imp  WinQueryWindow       (PMWIN.834)
+ 0000:00000000  Imp  WinQueryWindowPos    (PMWIN.837)
+ 0000:00000000  Imp  WinQueryWindowProcess (PMWIN.838)
+ 0000:00000000  Imp  WinQueryWindowRect   (PMWIN.840)
+ 0000:00000000  Imp  WinQueryWindowULong  (PMWIN.843)
+ 0000:00000000  Imp  WinQueryWindowUShort (PMWIN.844)
+ 0000:00000000  Imp  WinRegisterClass     (PMWIN.926)
+ 0000:00000000  Imp  WinReleasePS         (PMWIN.848)
+ 0000:00000000  Imp  WinRequestMutexSem   (PMWIN.979)
+ 0000:00000000  Imp  WinSendDlgItemMsg    (PMWIN.903)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  WinSetAccelTable     (PMWIN.850)
+ 0000:00000000  Imp  WinSetFocus          (PMWIN.860)
+ 0000:00000000  Imp  WinSetHook           (PMWIN.928)
+ 0000:00000000  Imp  WinSetPointer        (PMWIN.866)
+ 0000:00000000  Imp  WinSetPresParam      (PMWIN.938)
+ 0000:00000000  Imp  WinSetSysModalWindow (PMWIN.872)
+ 0000:00000000  Imp  WinSetWindowPos      (PMWIN.875)
+ 0000:00000000  Imp  WinSetWindowText     (PMWIN.877)
+ 0000:00000000  Imp  WinSetWindowULong    (PMWIN.878)
+ 0000:00000000  Imp  WinShowWindow        (PMWIN.883)
+ 0000:00000000  Imp  WinStopTimer         (PMWIN.885)
+ 0000:00000000  Imp  WinTerminate         (PMWIN.888)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0000:00000000  Imp  WinWindowFromPoint   (PMWIN.900)
+ 0003:00007338       _argc
+ 0003:0000733C       _argv
+ 0001:000071B0       _beginthread
+ 0001:00012768       _bit_test_set
+ 0001:00010E5C       _bufprint
+ 0001:00012284       _callback
+ 0001:00010F30       _callback_opt_sys
+ 0001:00012778       _CheckIfMem
+ 0001:00010D94       _CloseSem
+ 0001:0000E75C       _CloseStream
+ 0001:00013794       _cnvrt
+ 0001:0000E9B0       _convert
+ 0001:00012734       _cppinit
+ 0001:00010D6C       _CreateSem
+ 0001:0000FB54       _critlib_except
+ 0001:00006E8C       _CrtGetLocalData
+ 0001:00007168       _CrtInitThread
+ 0001:0000EC00       _CRT_init
+ 0003:00004DA0       _crt_msg_handle
+ 0001:000127E0       _CRT_term
+ 0003:00007348       _CRT_usage_count
+ 0003:00006A54       _ctype
+ 0003:00004664       _ctypeModule
+ 0003:00007484       _ctype_cmask
+ 0003:00007480       _ctype_ctypeidx
+ 0003:0000747C       _ctype_lower
+ 0003:00007474       _ctype_loweridx
+ 0003:00007488       _ctype_mask
+ 0003:00007478       _ctype_upper
+ 0003:00007470       _ctype_upperidx
+ 0003:00004DD8       _C_charmap
+ 0003:000053BC       _C_collate
+ 0003:00005908       _C_ctype
+ 0003:00005D18       _C_dtconv
+ 0003:00005060       _C_lconv
+ 0003:000050A0       _C_locale
+ 0003:00005968       _C_monetary
+ 0003:000059BC       _C_numeric
+ 0003:00005A04       _C_resp
+ 0003:00005A4C       _C_syntax
+ 0003:00005DC8       _C_time
+ 0003:00004E50       _C_tod
+ 0003:00004C84       _daylight
+ 0003:00007498       _dbg_mem_sem
+ 0001:00007494       _debug_calloc
+ 0001:00007450       _debug_free
+ 0001:00007470       _debug_heapmin
+ 0001:000074C0       _debug_malloc
+ 0001:0000745C       _debug_realloc
+ 0001:0000AF64       _debug_ucalloc
+ 0001:0000ABD0       _debug_ufree
+ 0001:0000AEAC       _debug_uheapmin
+ 0001:0000B03C       _debug_umalloc
+ 0001:0000ACCC       _debug_urealloc
+ 0001:00012E4C       _dec_test
+ 0001:00007558       _dump_allocated
+ 0001:00007510       _dump_allocated_delta
+ 0003:000074B0       _dv
+ 0003:0000641C       _edata
+ 0003:00007340       _edcinit_fin
+ 0003:00007758       _eh_base
+ 0003:000077A0       _end
+ 0001:00008E28       _endthread
+ 0003:00007768       _environ
+ 0001:00009128       _errno
+ 0001:0000FAE8       _Exception
+ 0001:00010C48       _exception_dllinit
+ 0001:00010C78       _exception_procinit
+ 0003:0000455C       _exeentry
+ 0001:0000E69C       _exestart
+ 0001:00010540       _EXE_Exception
+ 0001:00013C18       _exit_weak
+ 0001:0000EF24       _fcloseall
+ 0001:00013C2C       _fcloseall_weak
+ 0001:00013D88       _fillb
+ 0003:00005EC0       _firsteib
+ 0001:000129B0       _Flush
+ 0001:0000F010       _flushb
+ 0001:0000F36C       _Fmprs
+ 0003:00004C9C       _fopenused
+ 0001:00011050       _fpninit
+ 0001:0000A730       _fpreset
+ 0001:0000779C       _fprintfieee
+ 0001:000077DC       _fprintf_ansi
+ 0001:00007800       _freeCtype
+ 0001:000127D4       _freeCtype_weak
+ 0001:00012B54       _FreeFCB
+ 0001:000127CC       _freeLocale_weak
+ 0001:00010DA4       _freeThreadStorage
+ 0003:000046D0       _fullDump
+ 0001:00012C1C       _fullpath
+ 0001:000104D4       _get_eib
+ 0001:0000FB18       _get_seglim
+ 0001:0000759C       _heap_check
+ 0001:000127C4       _iconv_term_weak
+ 0001:00012E44       _inc
+ 0001:00012E5C       _InitBuf
+ 0001:00012EA4       _InitFCB
+ 0001:0000781C       _init_ctype
+ 0001:000127D0       _init_ctype_weak
+ 0001:00014040       _input_excpt
+ 0001:00009340       _insert_thou_sep
+ 0001:0000A740       _internal_err
+ 0001:0000B62C       _int_ipmd_heap_check
+ 0001:0000D33C       _int_rfree
+ 0001:000113A8       _int_uaddmem
+ 0001:00011614       _int_uheapmin
+ 0001:0000B784       _int_uheap_verify
+ 0001:0000E2A0       _int_umalloc
+ 0001:0000AB20       _int_unlink_item
+ 0001:00012678       _ipmd_heap_check
+ 0001:00012634       _ipmd_stub
+ 0001:00011054       _itoa
+ 0003:00006418       _lasteib
+ 0001:000106C0       _Lib_excpt
+ 0003:00007344       _locale_initialized
+ 0001:000127C8       _localInit_weak
+ 0001:0000A788       _ltoa
+ 0001:00013084       _matherr
+ 0003:00004CF4       _matherr_ptr
+ 0001:000127D8       _Math_Exception_Def
+ 0003:00004E40       _mb_cur_max
+ 0001:000122B8       _mem_error
+ 0001:000122D8       _mem_handler
+ 0001:0000A878       _MesgServ
+ 0001:00010530       _mig_eib_store
+ 0001:00011998       _msize
+ 0001:00010FEC       _nConv
+ 0001:0001308C       _noddprs
+ 0001:00010D58       _OpenSem
+ 0001:0000FFD0       _OpenStream
+ 0003:0000776C       _osmajor
+ 0003:00007774       _osminor
+ 0003:00004C8C       _osmode
+ 0003:00004C80       _PGLOBAL_PTR
+ 0001:0000A82C       _PrintErrMsg
+ 0001:00002A35       _printfieee
+ 0001:00002D14       _ProfileHook32
+ 0001:00002EF3       _ProfileHookVAOptlink32
+ 0001:000031B5       _ProfileThrow32
+ 0001:000031C6       _ProfileUnwind32
+ 0001:00010244       _readbSync
+ 0001:00010580       _recreate_exception
+ 0001:0000FB0C       _Regen_exception
+ 0003:00007778       _reg_heap
+ 0001:00008FCC       _ReleaseSem
+ 0001:00008FBC       _RequestSem
+ 0001:000118BC       _rmem_init
+ 0001:00011878       _rmem_term
+ 0001:0000D160       _rnode_delete
+ 0001:00012334       _setuparg
+ 0001:000131C8       _setupenv
+ 0001:00010F3C       _set_crt_msg_handle
+ 0001:00010F9C       _signedAssign
+ 0001:00007234       _sprintfieee
+ 0001:00007270       _sprintf_ansi
+ 0001:00012610       _terminate
+ 0003:00007784       _TerminateAndDumpSem
+ 0001:000088F4       _Terminate_and_dump
+ 0001:0000FB00       _Test_and_reset
+ 0001:0000BCDC       _test_dbg_allocated
+ 0001:0000EBB0       _test_handle
+ 0001:00012004       _test_heap
+ 0001:00011E90       _test_ms_allocated
+ 0001:000119CC       _test_pool
+ 0003:00004C88       _timezone
+ 0001:00012620       _tmarea_loaded
+ 0001:0000C598       _tm_msg_print
+ 0001:00013A7C       _toint
+ 0003:0000775C       _tzname
+ 0001:000112E8       _uaddmem
+ 0001:0000AA3C       _ucalloc
+ 0001:00011138       _ucreate
+ 0001:0000B1A0       _udump_allocated
+ 0001:0000B0F8       _udump_allocated_delta
+ 0001:0000D1B0       _ufree
+ 0001:00011564       _uheapmin
+ 0001:0000B6D4       _uheap_check
+ 0001:0001268C       _ultoa
+ 0001:0000D284       _umalloc
+ 0001:0001049C       _uwrite
+ 0001:00007764       _vsprintfieee
+ 0003:0000778C       _walk_used
+ 0001:0001337C       _wcputs
+ 0001:000133AC       _wfgetposMem
+ 0001:00012708       _wfloatfmt
+ 0001:0001338C       _wfsetposMem
+ 0001:000133A4       _wOpenMemory
+ 0001:00013388       _wreadbSyncMem
+ 0001:000133A0       _wRemoveMem
+ 0001:0001339C       _wrewindMem
+ 0001:00013394       _wSeekMem
+ 0001:000133C0       _wtellMem
+ 0001:00013384       _wuwriteMem
+ 0001:00013C24       _w_compat_msg
+ 0001:00013C14       _w_int_uflush
+ 0001:00012728       _w_int_unlink_item
+ 0001:000133D4       _w_raise
+ 0001:00013148       _w_Terminate_and_dump
+ 0001:00012730       _w_tmem_init
+ 0001:0001272C       _w_tmem_term
+ 0001:00012724       _w_uheap_verify
+ 0001:00013C28       _w_walking
+ 0001:000133DC       _XDosRead
+ 0001:00010CBC       __Async_exception_flag
+ 0001:000090D8       __broken_time_ptr
+ 0001:000148B4       __charmap_init
+ 0001:000148B0       __collate_init
+ 0001:00008FE8       __conv_buf
+ 0001:00009138       __cppstore
+ 0001:000148C4       __ctype_init
+ 0001:000090C8       __cvt_buf_ptr
+ 0003:00006A58       __c_local_ctype
+ 0001:0000902C       __default_heap
+ 0001:0000A1A0       __dofmto
+ 0001:00009118       __doserrno
+ 0001:00009108       __dttm_ptr
+ 0001:00007530       __dump_allocated
+ 0001:000074E8       __dump_allocated_delta
+ 0001:000107F8       __Exception
+ 0001:000090E8       __flags
+ 0001:00010CF0       __handleCollision
+ 0001:00007578       __heap_check
+ 0001:000090A8       __internal_buf_ptr
+ 0001:000090B8       __lcvt_buf_ptr
+ 0003:00004E3C       __lc_charmap
+ 0003:00005420       __lc_collate
+ 0003:00005958       __lc_ctype
+ 0003:000051B0       __lc_locale
+ 0003:000059B4       __lc_monetary
+ 0003:000059DC       __lc_numeric
+ 0003:00005A24       __lc_resp
+ 0003:00005A98       __lc_syntax
+ 0003:00005EB4       __lc_time
+ 0003:00004E98       __lc_tod
+ 0001:0001305C       __localeconv_dummy
+ 0001:00013FC4       __localeconv_std
+ 0003:000051B4       __localeconv_std_flag
+ 0001:000148C8       __locale_init
+ 0001:00014278       __mblen_dbcs
+ 0003:00005EB8       __mblen_dbcs_flag
+ 0001:00013FD0       __mblen_dummy
+ 0001:0001433C       __mbrlen_dbcs
+ 0003:00005EBC       __mbrlen_dbcs_flag
+ 0001:00014000       __mbrlen_dummy
+ 0001:000127C0       __method_weak
+ 0001:00014748       __monetary_init
+ 0003:00004E9C       __month
+ 0001:000146F4       __numeric_init
+ 0001:00010CCC       __pendingRequest
+ 0001:00009098       __perror_msg_ptr
+ 0001:0000905C       __random_seed
+ 0001:00014444       __resp_init
+ 0001:0000E72C       __RunExitList
+ 0001:00010CAC       __Saved_return_address
+ 0001:00012324       __sctordtorInit
+ 0001:0001232C       __sctordtorTerm
+ 0001:000090F8       __strerror_msg_ptr
+ 0001:00009078       __strtok_pos
+ 0001:0000904C       __swprintf_buf
+ 0001:0000903C       __swprintf_size
+ 0001:00014440       __syntax_init
+ 0001:00009088       __tempname_ptr
+ 0001:00008FDC       __threadid
+ 0001:00014464       __time_init
+ 0001:0001443C       __tod_init
+ 0001:0000B1D0       __udump_allocated
+ 0001:0000B10C       __udump_allocated_delta
+ 0001:0000B6C0       __uheap_check
+ 0001:0000906C       __version
+ 0001:00014160       __wctomb_dbcs
+ 0003:000051B8       __wctomb_dbcs_flag
+ 0001:00013348       __wctomb_dummy
+ 0001:00013C0C       __wctordtorInit
+ 0001:00013C10       __wctordtorTerm
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  DosOpenEventSem      (DOSCALLS.325)
+ 0000:00000000  Imp  WinQueryCapture      (PMWIN.804)
+ 0000:00000000  Imp  DosLoadModule        (DOSCALLS.318)
+ 0000:00000000  Imp  WinCreateWindow      (PMWIN.909)
+ 0000:00000000  Imp  WinDefWindowProc     (PMWIN.911)
+ 0000:00000000  Imp  EMWinInitialize      (ERRORMGR.789)
+ 0000:00000000  Imp  DosCreateThread      (DOSCALLS.311)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  WinSetAccelTable     (PMWIN.850)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0000:00000000  Imp  DosFreeResource      (DOSCALLS.353)
+ 0000:00000000  Imp  DosEnterCritSec      (DOSCALLS.232)
+ 0000:00000000  Imp  GpiSetBackColor      (PMGPI.504)
+ 0000:00000000  Imp  GpiDeleteBitmap      (PMGPI.371)
+ 0000:00000000  Imp  WinLoadAccelTable    (PMWIN.776)
+ 0000:00000000  Imp  WinSetWindowPos      (PMWIN.875)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosQueryPathInfo     (DOSCALLS.223)
+ 0000:00000000  Imp  WinPostQueueMsg      (PMWIN.902)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DosPostEventSem      (DOSCALLS.328)
+ 0000:00000000  Imp  DosQueryProcAddr     (DOSCALLS.321)
+ 0000:00000000  Imp  EMPrfOpenProfile     (ERRORMGR.546)
+ 0000:00000000  Imp  WinInvalidateRect    (PMWIN.765)
+ 0000:00000000  Imp  WinRegisterClass     (PMWIN.926)
+ 0000:00000000  Imp  WinSetPresParam      (PMWIN.938)
+ 0000:00000000  Imp  DosWaitEventSem      (DOSCALLS.329)
+ 0000:00000000  Imp  DosResetEventSem     (DOSCALLS.327)
+ 0000:00000000  Imp  DosGiveSharedMem     (DOSCALLS.303)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0000:00000000  Imp  DosUnsetExceptionHandler (DOSCALLS.355)
+ 0000:00000000  Imp  WinLoadPointer       (PMWIN.780)
+ 0000:00000000  Imp  DosForceDelete       (DOSCALLS.110)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  WinSetPointer        (PMWIN.866)
+ 0000:00000000  Imp  DosWriteQueue        (QUECALLS.14)
+ 0000:00000000  Imp  WinInitialize        (PMWIN.763)
+ 0000:00000000  Imp  WinShowWindow        (PMWIN.883)
+ 0000:00000000  Imp  SplQmStartDoc        (PMSPL.302)
+ 0000:00000000  Imp  GpiQueryFonts        (PMGPI.586)
+ 0000:00000000  Imp  SplQueryQueue        (PMSPL.397)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  WinDrawBorder        (PMWIN.731)
+ 0000:00000000  Imp  WinQueryFocus        (PMWIN.817)
+ 0000:00000000  Imp  DosSetRelMaxFH       (DOSCALLS.382)
+ 0000:00000000  Imp  WinBeginEnumWindows  (PMWIN.702)
+ 0000:00000000  Imp  EMPrfWriteProfileString (ERRORMGR.560)
+ 0000:00000000  Imp  WinQueryWindow       (PMWIN.834)
+ 0000:00000000  Imp  WinAssociateHelpInstance (HELPMGR.54)
+ 0000:00000000  Imp  DosExitCritSec       (DOSCALLS.233)
+ 0000:00000000  Imp  WinQuerySystemAtomTable (PMWIN.830)
+ 0000:00000000  Imp  GpiSetLineType       (PMGPI.530)
+ 0000:00000000  Imp  WinGetScreenPS       (PMWIN.759)
+ 0000:00000000  Imp  DosSetFileSize       (DOSCALLS.272)
+ 0000:00000000  Imp  WinDispatchMsg       (PMWIN.912)
+ 0000:00000000  Imp  EMWinQueryWindowProcess (ERRORMGR.884)
+ 0000:00000000  Imp  WinEnumDlgItem       (PMWIN.740)
+ 0000:00000000  Imp  DosGetDateTime       (DOSCALLS.230)
+ 0000:00000000  Imp  DosGetResource       (DOSCALLS.352)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  SplQmOpen            (PMSPL.301)
+ 0000:00000000  Imp  WinGetMsg            (PMWIN.915)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0000:00000000  Imp  DosClose             (DOSCALLS.257)
+ 0000:00000000  Imp  WinGetPS             (PMWIN.757)
+ 0000:00000000  Imp  WinRequestMutexSem   (PMWIN.979)
+ 0000:00000000  Imp  WinDestroyMsgQueue   (PMWIN.726)
+ 0000:00000000  Imp  DosSleep             (DOSCALLS.229)
+ 0000:00000000  Imp  WinQuerySysPointer   (PMWIN.828)
+ 0000:00000000  Imp  WinAlarm             (PMWIN.701)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosUnwindException   (DOSCALLS.357)
+ 0000:00000000  Imp  WinQueryWindowRect   (PMWIN.840)
+ 0000:00000000  Imp  SplQmWrite           (PMSPL.304)
+ 0000:00000000  Imp  GpiQueryFontMetrics  (PMGPI.453)
+ 0000:00000000  Imp  WinPostMsg           (PMWIN.919)
+ 0000:00000000  Imp  WinCreateHelpInstance (HELPMGR.51)
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  EMWinCancelShutdown  (ERRORMGR.699)
+ 0000:00000000  Imp  EMWinCreateMsgQueue  (ERRORMGR.715)
+ 0000:00000000  Imp  WinSetHook           (PMWIN.928)
+ 0000:00000000  Imp  WinAddAtom           (PMWIN.700)
+ 0000:00000000  Imp  SplQmClose           (PMSPL.306)
+ 0000:00000000  Imp  EMWinSendDlgItemMsg  (ERRORMGR.906)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  WinQueryAnchorBlock  (PMWIN.800)
+ 0000:00000000  Imp  WinWindowFromPoint   (PMWIN.900)
+ 0000:00000000  Imp  WinQueryQueueInfo    (PMWIN.824)
+ 0000:00000000  Imp  WinQueryPresParam    (PMWIN.939)
+ 0000:00000000  Imp  WinEndEnumWindows    (PMWIN.737)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  WinQuerySysValue     (PMWIN.829)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  WinMapWindowPoints   (PMWIN.788)
+ 0000:00000000  Imp  WinSetWindowText     (PMWIN.877)
+ 0000:00000000  Imp  WinGetNextWindow     (PMWIN.756)
+ 0000:00000000  Imp  EMPrfCloseProfile    (ERRORMGR.544)
+ 0000:00000000  Imp  WinCreateMsgQueue    (PMWIN.716)
+ 0000:00000000  Imp  DosAllocSharedMem    (DOSCALLS.300)
+ 0000:00000000  Imp  WinSendDlgItemMsg    (PMWIN.903)
+ 0000:00000000  Imp  WinDestroyWindow     (PMWIN.728)
+ 0000:00000000  Imp  DosOpen              (DOSCALLS.273)
+ 0000:00000000  Imp  WinQueryClassName    (PMWIN.805)
+ 0000:00000000  Imp  GpiMove              (PMGPI.404)
+ 0000:00000000  Imp  PrfQueryProfileInt   (PMSHAPI.114)
+ 0000:00000000  Imp  DosReleaseMutexSem   (DOSCALLS.335)
+ 0000:00000000  Imp  DosRead              (DOSCALLS.281)
+ 0000:00000000  Imp  EMWinSetWindowPos    (ERRORMGR.941)
+ 0000:00000000  Imp  GpiLine              (PMGPI.398)
+ 0000:00000000  Imp  WinDestroyPointer    (PMWIN.727)
+ 0000:00000000  Imp  WinQueryWindowPos    (PMWIN.837)
+ 0000:00000000  Imp  WinSetWindowULong    (PMWIN.878)
+ 0000:00000000  Imp  WinAddSwitchEntry    (PMSHAPI.120)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  WinSetFocus          (PMWIN.860)
+ 0000:00000000  Imp  WinQueryActiveWindow (PMWIN.799)
+ 0000:00000000  Imp  DosExitList          (DOSCALLS.296)
+ 0000:00000000  Imp  WinEndPaint          (PMWIN.738)
+ 0000:00000000  Imp  EMWinCreateSwitchEntry (ERRORMGR.720)
+ 0000:00000000  Imp  EMPrfQueryProfileInt (ERRORMGR.551)
+ 0000:00000000  Imp  DosOpenQueue         (QUECALLS.15)
+ 0000:00000000  Imp  WinFillRect          (PMWIN.743)
+ 0000:00000000  Imp  WinQuerySysModalWindow (PMWIN.827)
+ 0000:00000000  Imp  GpiLoadBitmap        (PMGPI.399)
+ 0000:00000000  Imp  WinQueryObjectWindow (PMWIN.820)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  WinBeginPaint        (PMWIN.703)
+ 0000:00000000  Imp  GpiSetBackMix        (PMGPI.505)
+ 0000:00000000  Imp  WinQueryDesktopWindow (PMWIN.813)
+ 0000:00000000  Imp  PrfQueryProfileString (PMSHAPI.115)
+ 0000:00000000  Imp  WinGetClipPS         (PMWIN.749)
+ 0000:00000000  Imp  EMWinQueryWindowPos  (ERRORMGR.883)
+ 0000:00000000  Imp  WinQueryWindowUShort (PMWIN.844)
+ 0000:00000000  Imp  WinSetSysModalWindow (PMWIN.872)
+ 0000:00000000  Imp  WinDrawText          (PMWIN.913)
+ 0000:00000000  Imp  WinQueryWindowProcess (PMWIN.838)
+ 0000:00000000  Imp  WinQueryWindowULong  (PMWIN.843)
+ 0000:00000000  Imp  EMWinQueryAnchorBlock (ERRORMGR.834)
+ 0000:00000000  Imp  WinStopTimer         (PMWIN.885)
+ 0000:00000000  Imp  WinTerminate         (PMWIN.888)
+ 0000:00000000  Imp  WinQueryTaskSizePos  (PMSHAPI.127)
+ 0000:00000000  Imp  WinReleasePS         (PMWIN.848)
+ 0000:00000000  Imp  DosSetExceptionHandler (DOSCALLS.354)
+ 0000:00000000  Imp  SplQmEndDoc          (PMSPL.303)
+ 0000:00000000  Imp  WinDestroyHelpInstance (HELPMGR.52)
+ 0000:00000000  Imp  GpiSetColor          (PMGPI.517)
+ 0000:00000000  Imp  EMWinDestroyMsgQueue (ERRORMGR.743)
+ 0000:00000000  Imp  EMWinChangeSwitchEntry (ERRORMGR.700)
+ 0000:00000000  Imp  WinLoadMenu          (PMWIN.778)
+ 0000:00000000  Imp  WinLoadString        (PMWIN.781)
+ 0001:00000000       main
+ 0001:000003B1       GpfDefWindowProc
+ 0001:000009B1       GpfDisplayHelp
+ 0001:00000A83       GpfSendMsg
+ 0001:00000CF7       ShowMainWindow
+ 0001:00000D20       AsynShowMainWindow
+ 0001:00000D70       DismissMainWindow
+ 0001:00000DB0       CreateMainWindow
+ 0001:00000E03       fnwpMainWindow
+ 0001:000014E0       view_title
+ 0001:00001767       view_fill
+ 0001:00001A33       view_print
+ 0001:00001F20       out_open
+ 0001:00001FD6       out_close
+ 0001:00002025       out_page
+ 0001:00002070       out_string
+ 0001:00002470       prof_make_siz_pos
+ 0001:00002570       prof_save_siz_pos
+ 0001:00002790       init_queue
+ 0001:000027B0       enqueue
+ 0001:00002858       dequeue
+ 0001:00002A35       _printfieee
+ 0001:00002D14       _ProfileHook32
+ 0001:00002D15       $$PROFCALL32
+ 0001:00002DC5       $$PROFRET32
+ 0001:00002E05       $$PROFTRIG32
+ 0001:00002EF3       _ProfileHookVAOptlink32
+ 0001:00002EF4       $$PROFEYEC32
+ 0001:00003006       $$PROFUSER32
+ 0001:00003006       PERF
+ 0001:00003007       PROFITCAL
+ 0001:00003060       PerfStart
+ 0001:00003095       PerfStop
+ 0001:000030C4       setjmp
+ 0001:000030C7       $$PROFSETJMP
+ 0001:000030F2       longjmp
+ 0001:000031B5       _ProfileThrow32
+ 0001:000031C6       _ProfileUnwind32
+ 0001:00003284       $$PROFINIT32
+ 0001:0000334A       $$PROFJUMP32
+ 0001:00003350       GpfP2CLevel
+ 0001:0000335C       GpfMeasureItem
+ 0001:00003438       GpfDrawItem
+ 0001:00003A6C       GpfSetTypeMsgInfo
+ 0001:00003A7C       GpfSetMsgInformation
+ 0001:00003A8C       GpfQueryMsgInformation
+ 0001:00003A98       GpfSendMsgInformation
+ 0001:00003AFC       GpfDisplayMsgInformation
+ 0001:00004354       GpfSetModalMode
+ 0001:00004404       GpfResetModalMode
+ 0001:000044D8       GpfProcessWnd
+ 0001:00004568       GpfDismissWnd
+ 0001:00004588       GpfDestroyTemplate
+ 0001:00004598       GpfGetVunitHunit
+ 0001:0000462C       GpfCreateTemplate
+ 0001:00004F88       GpfSetTabulation
+ 0001:000053D8       GpfRestoreDefaultButton
+ 0001:00005448       GpfResetDefaultButton
+ 0001:000054AC       GpfQueryDefaultButton
+ 0001:00005504       GpfSetWind
+ 0001:000055DC       GpfResetWind
+ 0001:0000592C       GpfAdjustControlSize
+ 0001:00005B18       GpfInitThread
+ 0001:00005B8C       GpfQueryHmqSql
+ 0001:00005B98       GpfSetHmqSql
+ 0001:00005BA8       GpfQueryHab
+ 0001:00005C1C       GpfQueryHmq
+ 0001:00005C80       GpfExecAsyncProc
+ 0001:0000624C       GpfGetHwndFrame
+ 0001:00006278       GpfSetTextTitleBar
+ 0001:0000629C       GpfSetCentreWindow
+ 0001:00006318       GpfSetTopWindow
+ 0001:0000636C       GpfSetMaxWindow
+ 0001:000063B8       GpfSetShellPosition
+ 0001:00006400       GpfSetShellPositionSize
+ 0001:00006448       GpfSetShellSize
+ 0001:00006490       GpfSetDialogBoxSysMenu
+ 0001:00006570       GpfSysMenuGray
+ 0001:000065EC       GpfMenuGray
+ 0001:00006668       GpfMenuTick
+ 0001:000066E4       GpfMenuSwapTick
+ 0001:00006784       GpfStringIsNumeric
+ 0001:000067F8       GpfInitSlider
+ 0001:0000694C       GpfPreInitNoteBookPage
+ 0001:00006A20       GpfSetNoteBookPage
+ 0001:00006BA8       GpfNoteBookTurnToPage
+ 0001:00006C08       GpfSetValueSetAttribute
+ 0001:00006C44       GpfSetValueSetText
+ 0001:00006C8C       GpfSetValueSetIcon
+ 0001:00006CE4       GpfSetValueSetBitMap
+ 0001:00006D54       GpfSetValueSetColor
+ 0001:00006D9C       GpfSetViewContainer
+ 0001:00006E00       GpfAllEmphasis
+ 0001:00006E8C       _CrtGetLocalData
+ 0001:00007168       _CrtInitThread
+ 0001:000071B0       _beginthread
+ 0001:00007234       _sprintfieee
+ 0001:00007270       _sprintf_ansi
+ 0001:00007290       atoi
+ 0001:0000733C       atol
+ 0001:000073E8       free
+ 0001:00007414       malloc
+ 0001:00007450       _debug_free
+ 0001:0000745C       _debug_realloc
+ 0001:00007470       _debug_heapmin
+ 0001:00007494       _debug_calloc
+ 0001:000074C0       _debug_malloc
+ 0001:000074E8       __dump_allocated_delta
+ 0001:00007510       _dump_allocated_delta
+ 0001:00007530       __dump_allocated
+ 0001:00007558       _dump_allocated
+ 0001:00007578       __heap_check
+ 0001:0000759C       _heap_check
+ 0001:000075B4       memcpy
+ 0001:000075D8       memset
+ 0001:00007608       strcat
+ 0001:00007640       strchr
+ 0001:00007664       strcmp
+ 0001:00007684       strcpy
+ 0001:000076B4       strdup
+ 0001:00007714       strlen
+ 0001:0000772C       strncpy
+ 0001:00007764       _vsprintfieee
+ 0001:00007780       vsprintf
+ 0001:0000779C       _fprintfieee
+ 0001:000077DC       _fprintf_ansi
+ 0001:00007800       _freeCtype
+ 0001:0000781C       _init_ctype
+ 0001:000078FC       fclose
+ 0001:000079FC       fopen
+ 0001:00007B00       fputc
+ 0001:00007D8C       getenv
+ 0001:00007F00       gets
+ 0001:00008698       memicmp
+ 0001:000088F4       _Terminate_and_dump
+ 0001:00008CF0       strtok
+ 0001:00008D68       strupr
+ 0001:00008DB0       time
+ 0001:00008E28       _endthread
+ 0001:00008FBC       _RequestSem
+ 0001:00008FCC       _ReleaseSem
+ 0001:00008FDC       __threadid
+ 0001:00008FE8       __conv_buf
+ 0001:0000902C       __default_heap
+ 0001:0000903C       __swprintf_size
+ 0001:0000904C       __swprintf_buf
+ 0001:0000905C       __random_seed
+ 0001:0000906C       __version
+ 0001:00009078       __strtok_pos
+ 0001:00009088       __tempname_ptr
+ 0001:00009098       __perror_msg_ptr
+ 0001:000090A8       __internal_buf_ptr
+ 0001:000090B8       __lcvt_buf_ptr
+ 0001:000090C8       __cvt_buf_ptr
+ 0001:000090D8       __broken_time_ptr
+ 0001:000090E8       __flags
+ 0001:000090F8       __strerror_msg_ptr
+ 0001:00009108       __dttm_ptr
+ 0001:00009118       __doserrno
+ 0001:00009128       _errno
+ 0001:00009138       __cppstore
+ 0001:00009340       _insert_thou_sep
+ 0001:0000A1A0       __dofmto
+ 0001:0000A730       _fpreset
+ 0001:0000A740       _internal_err
+ 0001:0000A788       _ltoa
+ 0001:0000A82C       _PrintErrMsg
+ 0001:0000A878       _MesgServ
+ 0001:0000AA3C       _ucalloc
+ 0001:0000AB20       _int_unlink_item
+ 0001:0000ABD0       _debug_ufree
+ 0001:0000ACCC       _debug_urealloc
+ 0001:0000AEAC       _debug_uheapmin
+ 0001:0000AF64       _debug_ucalloc
+ 0001:0000B03C       _debug_umalloc
+ 0001:0000B0F8       _udump_allocated_delta
+ 0001:0000B10C       __udump_allocated_delta
+ 0001:0000B1A0       _udump_allocated
+ 0001:0000B1D0       __udump_allocated
+ 0001:0000B62C       _int_ipmd_heap_check
+ 0001:0000B6C0       __uheap_check
+ 0001:0000B6D4       _uheap_check
+ 0001:0000B784       _int_uheap_verify
+ 0001:0000BCDC       _test_dbg_allocated
+ 0001:0000C598       _tm_msg_print
+ 0001:0000D160       _rnode_delete
+ 0001:0000D1B0       _ufree
+ 0001:0000D284       _umalloc
+ 0001:0000D33C       _int_rfree
+ 0001:0000E2A0       _int_umalloc
+ 0001:0000E624       strcspn
+ 0001:0000E660       strspn
+ 0001:0000E69C       _exestart
+ 0001:0000E72C       __RunExitList
+ 0001:0000E75C       _CloseStream
+ 0001:0000E9B0       _convert
+ 0001:0000EBB0       _test_handle
+ 0001:0000EC00       _CRT_init
+ 0001:0000EF24       _fcloseall
+ 0001:0000F010       _flushb
+ 0001:0000F36C       _Fmprs
+ 0001:0000F898       mktime
+ 0001:0000FAE8       _Exception
+ 0001:0000FB00       _Test_and_reset
+ 0001:0000FB0C       _Regen_exception
+ 0001:0000FB18       _get_seglim
+ 0001:0000FB54       _critlib_except
+ 0001:0000FFD0       _OpenStream
+ 0001:00010244       _readbSync
+ 0001:0001049C       _uwrite
+ 0001:000104D4       _get_eib
+ 0001:00010530       _mig_eib_store
+ 0001:00010540       _EXE_Exception
+ 0001:00010580       _recreate_exception
+ 0001:000106C0       _Lib_excpt
+ 0001:000107F8       __Exception
+ 0001:00010C48       _exception_dllinit
+ 0001:00010C78       _exception_procinit
+ 0001:00010CAC       __Saved_return_address
+ 0001:00010CBC       __Async_exception_flag
+ 0001:00010CCC       __pendingRequest
+ 0001:00010CF0       __handleCollision
+ 0001:00010D58       _OpenSem
+ 0001:00010D6C       _CreateSem
+ 0001:00010D94       _CloseSem
+ 0001:00010DA4       _freeThreadStorage
+ 0001:00010E5C       _bufprint
+ 0001:00010F30       _callback_opt_sys
+ 0001:00010F3C       _set_crt_msg_handle
+ 0001:00010F70       exit
+ 0001:00010F9C       _signedAssign
+ 0001:00010FEC       _nConv
+ 0001:00011050       _fpninit
+ 0001:00011054       _itoa
+ 0001:000110F8       memmove
+ 0001:00011138       _ucreate
+ 0001:000112E8       _uaddmem
+ 0001:000113A8       _int_uaddmem
+ 0001:00011564       _uheapmin
+ 0001:00011614       _int_uheapmin
+ 0001:00011878       _rmem_term
+ 0001:000118BC       _rmem_init
+ 0001:00011998       _msize
+ 0001:000119CC       _test_pool
+ 0001:00011E90       _test_ms_allocated
+ 0001:00012004       _test_heap
+ 0001:00012284       _callback
+ 0001:000122B8       _mem_error
+ 0001:000122D8       _mem_handler
+ 0001:00012324       __sctordtorInit
+ 0001:0001232C       __sctordtorTerm
+ 0001:00012334       _setuparg
+ 0001:0001252C       strtoul
+ 0001:00012610       _terminate
+ 0001:00012620       _tmarea_loaded
+ 0001:00012634       _ipmd_stub
+ 0001:00012678       _ipmd_heap_check
+ 0001:0001268C       _ultoa
+ 0001:00012708       _wfloatfmt
+ 0001:00012724       _w_uheap_verify
+ 0001:00012728       _w_int_unlink_item
+ 0001:0001272C       _w_tmem_term
+ 0001:00012730       _w_tmem_init
+ 0001:00012734       _cppinit
+ 0001:0001273C       abort
+ 0001:00012768       _bit_test_set
+ 0001:00012778       _CheckIfMem
+ 0001:000127C0       __method_weak
+ 0001:000127C4       _iconv_term_weak
+ 0001:000127C8       _localInit_weak
+ 0001:000127CC       _freeLocale_weak
+ 0001:000127D0       _init_ctype_weak
+ 0001:000127D4       _freeCtype_weak
+ 0001:000127D8       _Math_Exception_Def
+ 0001:000127E0       _CRT_term
+ 0001:000129B0       _Flush
+ 0001:00012B54       _FreeFCB
+ 0001:00012C1C       _fullpath
+ 0001:00012E44       _inc
+ 0001:00012E4C       _dec_test
+ 0001:00012E5C       _InitBuf
+ 0001:00012EA4       _InitFCB
+ 0001:0001305C       __localeconv_dummy
+ 0001:00013068       localeconv
+ 0001:00013084       _matherr
+ 0001:0001308C       _noddprs
+ 0001:00013148       _w_Terminate_and_dump
+ 0001:000131C8       _setupenv
+ 0001:00013290       strnicmp
+ 0001:00013348       __wctomb_dummy
+ 0001:00013354       wctomb
+ 0001:0001337C       _wcputs
+ 0001:00013384       _wuwriteMem
+ 0001:00013388       _wreadbSyncMem
+ 0001:0001338C       _wfsetposMem
+ 0001:00013394       _wSeekMem
+ 0001:0001339C       _wrewindMem
+ 0001:000133A0       _wRemoveMem
+ 0001:000133A4       _wOpenMemory
+ 0001:000133AC       _wfgetposMem
+ 0001:000133C0       _wtellMem
+ 0001:000133D4       _w_raise
+ 0001:000133DC       _XDosRead
+ 0001:00013794       _cnvrt
+ 0001:00013A3C       calloc
+ 0001:00013A7C       _toint
+ 0001:00013C0C       __wctordtorInit
+ 0001:00013C10       __wctordtorTerm
+ 0001:00013C14       _w_int_uflush
+ 0001:00013C18       _exit_weak
+ 0001:00013C24       _w_compat_msg
+ 0001:00013C28       _w_walking
+ 0001:00013C2C       _fcloseall_weak
+ 0001:00013C34       fflush
+ 0001:00013D88       _fillb
+ 0001:00013FC4       __localeconv_std
+ 0001:00013FD0       __mblen_dummy
+ 0001:00013FDC       mblen
+ 0001:00014000       __mbrlen_dummy
+ 0001:0001400C       mbrlen
+ 0001:00014040       _input_excpt
+ 0001:00014098       raise
+ 0001:00014160       __wctomb_dbcs
+ 0001:00014278       __mblen_dbcs
+ 0001:0001433C       __mbrlen_dbcs
+ 0001:0001443C       __tod_init
+ 0001:00014440       __syntax_init
+ 0001:00014444       __resp_init
+ 0001:00014464       __time_init
+ 0001:000146F4       __numeric_init
+ 0001:00014748       __monetary_init
+ 0001:000148B0       __collate_init
+ 0001:000148B4       __charmap_init
+ 0001:000148C4       __ctype_init
+ 0001:000148C8       __locale_init
+ 0001:00014964       sig32
+ 0001:00014976       DosGetMessage
+ 0001:00014976       DOS32GETMESSAGE
+ 0001:00014976       DOSGETMESSAGE
+ 0001:00014976       Dos32GetMessage
+ 0003:000003CC       $$PROSEGPTR32
+ 0003:0000455C       _exeentry
+ 0003:00004664       _ctypeModule
+ 0003:000046D0       _fullDump
+ 0003:00004BCC       stdin
+ 0003:00004BD0       stdout
+ 0003:00004BD4       stderr
+ 0003:00004C80       _PGLOBAL_PTR
+ 0003:00004C84       _daylight
+ 0003:00004C88       _timezone
+ 0003:00004C8C       _osmode
+ 0003:00004C9C       _fopenused
+ 0003:00004CF4       _matherr_ptr
+ 0003:00004DA0       _crt_msg_handle
+ 0003:00004DD8       _C_charmap
+ 0003:00004E3C       __lc_charmap
+ 0003:00004E40       _mb_cur_max
+ 0003:00004E50       _C_tod
+ 0003:00004E98       __lc_tod
+ 0003:00004E9C       __month
+ 0003:00005060       _C_lconv
+ 0003:000050A0       _C_locale
+ 0003:000051B0       __lc_locale
+ 0003:000051B4       __localeconv_std_flag
+ 0003:000051B8       __wctomb_dbcs_flag
+ 0003:000053BC       _C_collate
+ 0003:00005420       __lc_collate
+ 0003:00005908       _C_ctype
+ 0003:00005958       __lc_ctype
+ 0003:00005968       _C_monetary
+ 0003:000059B4       __lc_monetary
+ 0003:000059BC       _C_numeric
+ 0003:000059DC       __lc_numeric
+ 0003:00005A04       _C_resp
+ 0003:00005A24       __lc_resp
+ 0003:00005A4C       _C_syntax
+ 0003:00005A98       __lc_syntax
+ 0003:00005D18       _C_dtconv
+ 0003:00005DC8       _C_time
+ 0003:00005EB4       __lc_time
+ 0003:00005EB8       __mblen_dbcs_flag
+ 0003:00005EBC       __mbrlen_dbcs_flag
+ 0003:00005EC0       _firsteib
+ 0003:00006418       _lasteib
+ 0003:0000641C       _edata
+ 0003:00006A54       _ctype
+ 0003:00006A58       __c_local_ctype
+ 0003:00007338       _argc
+ 0003:0000733C       _argv
+ 0003:00007340       _edcinit_fin
+ 0003:00007344       _locale_initialized
+ 0003:00007348       _CRT_usage_count
+ 0003:00007470       _ctype_upperidx
+ 0003:00007474       _ctype_loweridx
+ 0003:00007478       _ctype_upper
+ 0003:0000747C       _ctype_lower
+ 0003:00007480       _ctype_ctypeidx
+ 0003:00007484       _ctype_cmask
+ 0003:00007488       _ctype_mask
+ 0003:0000748C       habMainTask
+ 0003:00007490       hmodViewRep
+ 0003:00007494       hmqMainTask
+ 0003:00007498       _dbg_mem_sem
+ 0003:000074A0       ViewRep_Level
+ 0003:000074A4       hwndMainWindow
+ 0003:000074A8       Argc
+ 0003:000074AC       Argv
+ 0003:000074B0       _dv
+ 0003:000076EC       Swctl
+ 0003:0000774C       Hunits
+ 0003:0000774E       Vunits
+ 0003:00007750       sDecimal
+ 0003:00007754       hSwitch
+ 0003:00007758       _eh_base
+ 0003:0000775C       _tzname
+ 0003:00007764       hwndHelp
+ 0003:00007768       _environ
+ 0003:0000776C       _osmajor
+ 0003:00007770       EndOfAppl
+ 0003:00007774       _osminor
+ 0003:00007778       _reg_heap
+ 0003:0000777C       LogoTimer
+ 0003:00007780       hwndFrameMainWindow
+ 0003:00007784       _TerminateAndDumpSem
+ 0003:0000778C       _walk_used
+ 0003:00007790       szTaskList
+ 0003:000077A0       _end
+
+Program entry point at 0001:0000E69C

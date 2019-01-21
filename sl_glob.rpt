@@ -1,0 +1,16 @@
+Global Definitions
+
+Link Database Path: "D:\develop\viewrep\"
+Creation: 08/02/98 12:09:25
+
+   Argc        - "D:\develop\viewrep\viewfill.c"(35:13)
+   Argv        - "D:\develop\viewrep\viewfill.c"(36:15)
+   ESC         - "D:\develop\viewrep\queue.c"(12:7)
+   head        - "D:\develop\viewrep\queue.c"(14:13)
+   outdev      - "D:\develop\viewrep\viewfill.c"(41:13)
+   qflag       - "D:\develop\viewrep\viewfill.c"(42:13)
+   tail        - "D:\develop\viewrep\queue.c"(15:13)
+   title       - "D:\develop\viewrep\viewfill.c"(40:13)
+   window_name - "D:\develop\viewrep\profile.c"(24:14)
+
+   Number of Entries: 9

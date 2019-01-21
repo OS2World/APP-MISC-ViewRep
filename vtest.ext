@@ -1,0 +1,144 @@
+/**********************************************************************/
+/*								      */
+/* Define GPFPARMS (Gpf Parameters)				      */
+/*								      */
+/**********************************************************************/
+#define GPF_P2C
+#include "GpfParms.h"
+
+#ifndef EXTERN
+#define EXTERN extern
+#endif
+#ifndef GPF_EXT
+#define GPF_EXT
+
+typedef VOID (APIENTRY FNASYNCPROC)(PVOID);
+typedef FNASYNCPROC *PFNASYNCPROC;
+typedef VOID (APIENTRY FNCREATEPAGE)(HWND);
+typedef FNCREATEPAGE *PFNCREATEPAGE;
+
+/**********************************************************************/
+/*								      */
+/*   Function prototypes for private Window Procedures. 	      */
+/*								      */
+/**********************************************************************/
+/*								      */
+/* This is the standard function definition for window procedures.    */
+/* Typically they are names like "fnwpXxxxxxxxxx", where the prefix   */
+/* is replaced by some name descriptive of the window procedure       */
+/* being declared.						      */
+/* Window procedures must be EXPORTED in the definitions file used    */
+/* by the linker.						      */
+/*								      */
+/* MRESULT EXPENTRY fnwpMyWindow(HWND	hwnd, ** window handle	      */
+/*				 ULONG	msg,  ** message number       */
+/*				 MPARAM mp1,  ** 1st (packed) parms   */
+/*				 MPARAM mp2); ** 2nd (packed) parms   */
+MRESULT EXPENTRY GpfDefWindowProc(
+		 HWND hwnd, ULONG msg, MPARAM mp1, MPARAM mp2 );
+MRESULT EXPENTRY fnwpMainWindow(
+		 HWND hwnd, ULONG msg, MPARAM mp1, MPARAM mp2 );
+
+/**********************************************************************/
+/*								      */
+/* Function prototypes for private C functions			      */
+/*								      */
+/**********************************************************************/
+
+#define _CENTRY  _Optlink
+INT	_CENTRY  main( LONG argc, PCHAR *argv );
+VOID	APIENTRY GpfDisplayHelp( HWND hwnd );
+MRESULT APIENTRY GpfDrawItem( HWND hwnd, MPARAM mp1, MPARAM mp2 );
+MRESULT APIENTRY GpfMeasureItem( HWND hwnd, MPARAM mp1, MPARAM mp2 );
+VOID	APIENTRY GpfResetDefaultButton( HWND hwnd );
+VOID	APIENTRY GpfRestoreDefaultButton( HWND hwnd );
+HWND	APIENTRY GpfQueryDefaultButton( HWND hwnd );
+VOID	APIENTRY GpfSetTextTitleBar( HWND hwnd, PCHAR Text );
+BOOL	APIENTRY GpfStringIsNumeric( PCHAR String );
+SHORT	APIENTRY GpfSendMsg( SHORT Id );
+VOID	APIENTRY GpfSetCentreWindow( HWND hwnd );
+VOID	APIENTRY GpfSetTopWindow( HWND hwnd );
+VOID	APIENTRY GpfSetMaxWindow( HWND hwnd );
+VOID	APIENTRY GpfSetShellPosition( HWND hwnd );
+VOID	APIENTRY GpfSetShellPositionSize( HWND hwnd );
+VOID	APIENTRY GpfSetShellSize( HWND hwnd );
+VOID	APIENTRY GpfSetDialogBoxSysMenu( HWND hwnd );
+VOID	APIENTRY GpfSysMenuGray( HWND hwnd, USHORT Item, BOOL Option );
+VOID	APIENTRY GpfMenuGray( HWND hwnd, USHORT Item, BOOL Option );
+VOID	APIENTRY GpfMenuTick( HWND hwnd, USHORT Item, BOOL Option );
+VOID	APIENTRY GpfMenuSwapTick( HWND hwnd, USHORT Item );
+VOID	APIENTRY GpfDismissWnd( HWND hwnd, BOOL Rcode );
+BOOL	APIENTRY GpfProcessWnd( HWND hwnd );
+VOID	APIENTRY GpfAdjustControlSize( HWND hwnd, MPARAM mp1, MPARAM mp2 );
+VOID	APIENTRY GpfDestroyTemplate( HWND hwnd );
+MRESULT APIENTRY GpfSetTabulation( HWND hwnd, ULONG msg, MPARAM mp1, MPARAM mp2 );
+VOID	APIENTRY GpfCreateWindowThreads( VOID ); /* Create WindowThreads */
+VOID	APIENTRY GpfDisplayMsgInformation( PGPFPARMS pGpfParms );
+VOID	APIENTRY GpfSendMsgInformation( PGPFPARMS pGpfParms, SHORT ShortMsgId );
+VOID	APIENTRY GpfSetMsgInformation( BOOL Option );
+VOID	APIENTRY GpfSetTypeMsgInfo( SHORT Option );
+BOOL	APIENTRY GpfQueryMsgInformation( VOID );
+HWND	APIENTRY GpfGetHwndFrame( HWND hwnd );
+SHORT	APIENTRY GpfP2CLevel( VOID );
+VOID	APIENTRY GpfInitSlider(HWND hwnd,SHORT Id,SHORT TickSize,SHORT MaxChar,PCHAR szText);
+VOID	APIENTRY GpfSetValueSetAttribute(HWND hwnd,SHORT Id,LONG ItemId,SHORT Attr);
+VOID	APIENTRY GpfSetValueSetText(HWND hwnd,SHORT Id,LONG ItemId,PCHAR szText);
+VOID	APIENTRY GpfSetValueSetIcon(HWND hwnd,SHORT Id,LONG ItemId,SHORT IconId,HMODULE hmod);
+VOID	APIENTRY GpfSetValueSetBitMap(HWND hwnd,SHORT Id,LONG ItemId,SHORT BitMapId,HMODULE hmod);
+VOID	APIENTRY GpfSetValueSetColor(HWND hwnd,SHORT Id,LONG ItemId,LONG Color);
+VOID	APIENTRY GpfSetNoteBookPage(PGPFPARMS pGpfParms);
+VOID	APIENTRY GpfPreInitNoteBookPage( HWND hwndNoteBook, HMODULE hmod,
+		 SHORT Id,SHORT Style, PCHAR TabText, PCHAR StatusText, PVOID CreateProc);
+BOOL	APIENTRY GpfNoteBookTurnToPage(HWND hwndPage);
+VOID	APIENTRY GpfGetVunitHunit(PSHORT pVunit, PSHORT pHunit);
+VOID	APIENTRY GpfInitThread(HAB hab, HMQ hmq);
+HAB	APIENTRY GpfQueryHab(ULONG Tid);
+HMQ	APIENTRY GpfQueryHmq(ULONG Tid);
+HMQ	APIENTRY GpfQueryHmqSql(VOID);
+VOID	APIENTRY GpfSetHmqSql(HMQ HmqSql );
+VOID	APIENTRY GpfExecAsyncProc(PFNASYNCPROC Proc,PVOID Parms,HMQ hmq);
+HWND	APIENTRY GpfCreateTemplate( SHORT id, HMODULE hmod, HWND hwndParent,
+		 HWND hwndOwner, PVOID pCrtParms, SHORT RealId, LONG Reserved);
+VOID	APIENTRY GpfSetViewContainer(HWND hwnd, SHORT Id, LONG Option);
+VOID	APIENTRY GpfAllEmphasis(HWND hwnd, SHORT Id, LONG Attribute, BOOL Set);
+
+BOOL	APIENTRY ShowMainWindow( PVOID pCrtParms );
+VOID	APIENTRY DismissMainWindow( BOOL Option );
+VOID	APIENTRY AsynShowMainWindow( PVOID pCrtParms );
+HWND	APIENTRY CreateMainWindow( PVOID pCrtParms );
+
+/**********************************************************************/
+/*								      */
+/*   Global variables						      */
+/*								      */
+/**********************************************************************/
+
+/*------------------------ General Definitions -----------------------*/
+
+EXTERN BOOL    EndOfAppl;	     /* Switch Accept End Application */
+EXTERN PCHAR   Vtest_Level;
+EXTERN LONG    Argc;
+EXTERN PCHAR  *Argv;
+
+/* Query System preferences set by the user from the Control Panel    */
+EXTERN CHAR  sDecimal[2];	     /* National Decimal	      */
+EXTERN SHORT LogoTimer; 	     /* Logo Timer		      */
+EXTERN SHORT Vunits;
+EXTERN SHORT Hunits;
+
+/* HANDLE							      */
+EXTERN HMODULE	hmodVtest ;
+EXTERN HAB	habMainTask;		  /* Anchor block handle      */
+EXTERN HMQ	hmqMainTask;		  /* Message queue handle     */
+EXTERN HSWITCH	hSwitch;		  /* Switch Control Handel    */
+EXTERN SWCNTRL	Swctl;			  /* Switch Control	      */
+EXTERN PCHAR	szTaskList;		  /* Task List TITLE	      */
+
+EXTERN HWND  hwndHelp;			  /* Help Hwnd		      */
+EXTERN HWND  hwndFrameMainWindow;
+EXTERN HWND  hwndMainWindow;
+
+
+#endif
+
+

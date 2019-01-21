@@ -1,0 +1,72 @@
+User Function Definitions
+
+Link Database Path: "D:\develop\viewrep\"
+Creation: 08/02/98 12:09:25
+
+	DosExit
+	GpfAdjustControlSize
+	GpfCreateTemplate
+	GpfDestroyTemplate
+	GpfDrawItem
+	GpfExecAsyncProc
+	GpfGetHwndFrame
+	GpfGetVunitHunit
+	GpfInitThread
+	GpfMeasureItem
+	GpfMenuGray
+	GpfP2CLevel
+	GpfQueryDefaultButton
+	GpfSendMsgInformation
+	GpfSetTabulation
+	GpfSetTextTitleBar
+	PrfCloseProfile
+	PrfOpenProfile
+	PrfQueryProfileInt
+	PrfQueryProfileString
+	PrfWriteProfileString
+	WinAddSwitchEntry
+	WinAlarm
+	WinAssociateHelpInstance
+	WinBeginPaint
+	WinCancelShutdown
+	WinChangeSwitchEntry
+	WinCreateHelpInstance
+	WinCreateMsgQueue
+	WinCreateSwitchEntry
+	WinDefWindowProc
+	WinDestroyHelpInstance
+	WinDestroyMsgQueue
+	WinDestroyWindow
+	WinDispatchMsg
+	WinEndPaint
+	WinFillRect
+	WinGetMsg
+	WinInitialize
+	WinLoadString
+	WinMessageBox
+	WinPostMsg
+	WinQueryActiveWindow
+	WinQueryAnchorBlock
+	WinQueryDesktopWindow
+	WinQueryFocus
+	WinQueryPresParam
+	WinQuerySysModalWindow
+	WinQuerySysPointer
+	WinQueryWindow
+	WinQueryWindowPos
+	WinQueryWindowProcess
+	WinQueryWindowULong
+	WinQueryWindowUShort
+	WinRegisterClass
+	WinSendDlgItemMsg
+	WinSendMsg
+	WinSetPointer
+	WinSetSysModalWindow
+	WinSetWindowPos
+	WinSetWindowULong
+	WinShowWindow
+	WinStopTimer
+	WinTerminate
+	WinWindowFromID
+
+   Number of Entries: 65

@@ -1,0 +1,43 @@
+Function Definitions
+
+Link Database Path: "D:\develop\viewrep\"
+Creation: 08/02/98 12:09:25
+
+   absorb                - "D:\develop\viewrep\viewfill.c"(261:14)
+   ActionActionExit      - "D:\develop\viewrep\viewrep.c"(1378:13)
+   ActionActionPrint     - "D:\develop\viewrep\viewrep.c"(1412:13)
+   ActionListBox         - "D:\develop\viewrep\viewrep.c"(1452:13)
+   AsynShowMainWindow    - "D:\develop\viewrep\viewrep.c"(986:15)
+   CommandMainWindow     - "D:\develop\viewrep\viewrep.c"(1327:13)
+   CreateMainWindow      - "D:\develop\viewrep\viewrep.c"(1043:15)
+   dequeue               - "D:\develop\viewrep\queue.c"(53:7)
+   DismissMainWindow     - "D:\develop\viewrep\viewrep.c"(1015:15)
+   EndApplication        - "D:\develop\viewrep\viewrep.c"(896:13)
+   enqueue               - "D:\develop\viewrep\queue.c"(28:5)
+   fnwpMainWindow        - "D:\develop\viewrep\viewrep.c"(1088:19)
+   GpfDefWindowProc      - "D:\develop\viewrep\viewrep.c"(470:18)
+   GpfDisplayHelp        - "D:\develop\viewrep\viewrep.c"(754:15)
+   GpfSendMsg            - "D:\develop\viewrep\viewrep.c"(797:16)
+   InitializeApplication - "D:\develop\viewrep\viewrep.c"(875:13)
+   init_queue            - "D:\develop\viewrep\queue.c"(20:6)
+   main                  - "D:\develop\viewrep\viewrep.c"(275:13)
+   make_line             - "D:\develop\viewrep\viewfill.c"(284:13)
+   path_from_env         - "D:\develop\viewrep\profile.c"(106:14)
+   ProcessMainWindow     - "D:\develop\viewrep\viewrep.c"(1178:16)
+   prof_make_siz_pos     - "D:\develop\viewrep\profile.c"(68:6)
+   prof_open             - "D:\develop\viewrep\profile.c"(30:13)
+   prof_read_int         - "D:\develop\viewrep\profile.c"(44:12)
+   prof_save_int         - "D:\develop\viewrep\profile.c"(55:13)
+   prof_save_siz_pos     - "D:\develop\viewrep\profile.c"(87:6)
+   ShowMainWindow        - "D:\develop\viewrep\viewrep.c"(964:15)
+   squeeze               - "D:\develop\viewrep\viewfill.c"(228:14)
+   view_fill             - "D:\develop\viewrep\viewfill.c"(125:6)
+   view_fill_sub         - "D:\develop\viewrep\viewfill.c"(134:13)
+   view_print            - "D:\develop\viewrep\viewfill.c"(177:6)
+   view_print_sub        - "D:\develop\viewrep\viewfill.c"(186:13)
+   view_title            - "D:\develop\viewrep\viewfill.c"(54:6)
+   view_title_sub        - "D:\develop\viewrep\viewfill.c"(95:13)
+   WmDestroyMainWindow   - "D:\develop\viewrep\viewrep.c"(942:13)
+   WmInitWndMainWindow   - "D:\develop\viewrep\viewrep.c"(917:13)
+
+   Number of Entries: 36

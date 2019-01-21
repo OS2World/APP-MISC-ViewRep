@@ -1,0 +1,9 @@
+#define ID_VIEWREP                     	10000	/* Appl Id    */ /* 0x2710 */
+#define ID_MAINWINDOW                  	10004	/* MainWindow */ /* 0x2714 */
+#define ID_ACTIONEXIT                  	10006	/* Menu       */ /* 0x2716 */
+#define ID_LISTBOX                     	10005	/* Control    */ /* 0x2715 */
+#define ID_ACTIONPRINT                 	10007	/* Menu       */ /* 0x2717 */
+#define ID_MSGPRINTDONE                	10020	/* Message    */ /* 0x2724 */
+#define ID_MSGPRINTFAILED              	10021	/* Message    */ /* 0x2725 */
+#define ID_DOCUMENT                    	10010	/* IconBitMap */ /* 0x271A */
+

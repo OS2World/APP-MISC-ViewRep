@@ -1,0 +1,7 @@
+#define ID_VTEST                       	10000	/* Appl Id    */ /* 0x2710 */
+#define ID_MAINWINDOW                  	10004	/* MainWindow */ /* 0x2714 */
+#define ID_STATICTEXT                  	10006	/* Control    */ /* 0x2716 */
+#define ID_MLENTRYFIELD                	10005	/* Control    */ /* 0x2715 */
+#define ID_PUSHBUTTONSEND              	10007	/* Control    */ /* 0x2717 */
+#define ID_PUSHBUTTONEXIT              	10008	/* Control    */ /* 0x2718 */
+

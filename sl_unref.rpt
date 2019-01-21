@@ -1,0 +1,9 @@
+Unreferenced Functions
+
+Link Database Path: "D:\develop\viewrep\"
+Creation: 08/02/98 12:09:25
+
+   DismissMainWindow - "D:\develop\viewrep\viewrep.c"(1015:15)
+   main              - "D:\develop\viewrep\viewrep.c"(275:13)
+
+   Number of Entries: 2

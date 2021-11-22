@@ -5,7 +5,7 @@ VIEWREP is a presentation manager program. It will display standard input and gi
 * BSD 3 Clause
 
 ## COMPILE TOOLS
-* GPF
+* GPF (gpfdem.zip, gpfupd.zip)
  
 ## AUTHORS
 * Elipse Software
